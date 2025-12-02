@@ -1,0 +1,48 @@
+name: pixelka_watch
+description: Pixelka AI for Galaxy Watch
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # === Wear OS ===
+  wear: ^1.1.0
+  
+  # === Логика и Сеть ===
+  flutter_dotenv: ^5.1.0
+  http: ^1.2.1
+  uuid: ^4.3.3
+  flutter_secure_storage: ^9.0.0
+  intl: ^0.20.2 
+  provider: ^6.1.1
+  
+  # === База данных ===
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  
+  # === Аудио и Файлы ===
+  permission_handler: ^11.0.1
+  flutter_sound: ^9.2.13
+  path_provider: ^2.1.1
+  path: ^1.9.0
+
+  # === UI ===
+  google_fonts: ^6.1.0
+  markdown: ^7.1.1 # Чтобы текст ответа был красивым
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.6
+
+flutter:
+  uses-material-design: true
+  assets:
+     - .env
