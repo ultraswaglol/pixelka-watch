@@ -32,7 +32,7 @@
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/YOUR_USERNAME/pixelka-watch.git
+    git clone https://github.com/ultraswaglol/pixelka-watch.git
     ```
 2.  **Setup Environment:**
     Create a `.env` file based on `.env.example` with your N8N webhook URLs.
